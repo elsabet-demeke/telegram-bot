@@ -14,8 +14,8 @@ from datetime import datetime
 # CONFIG
 # =========================
 
-TOKEN = "8427301208:AAFKlj2Omzymyo7KeYMVGTnHRxH8IxDGLEo"
-ADMIN_ID = 5110535270
+TOKEN = os.environ.get("TOKEN")
+ADMIN_ID = int(os.environ.get("ADMIN_ID"))
 
 # =========================
 # MENU
